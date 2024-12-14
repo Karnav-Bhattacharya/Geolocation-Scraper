@@ -1,13 +1,13 @@
-# Geolocation Scraper
+# Geolocation Scraper for SEZ Zones of India
 
 ## Overview
-This project automates the extraction of latitude and longitude coordinates for a list of locations using Selenium and web scraping techniques. The script processes location names, searches them on [GeoNames](https://www.geonames.org/advanced-search.html), and retrieves the coordinates.
+This project automates the extraction of geographical coordinates (latitude and longitude) for Special Economic Zones (SEZ) in India using Selenium and web scraping techniques. The script processes location names, searches them on [GeoNames](https://www.geonames.org/advanced-search.html), and retrieves the coordinates.
 
 ---
 
 ## Features
 - Reads location names from an input file.
-- Automatically opens a browser and searches each location.
+- Automates the search and retrieval of coordinates for SEZ locations in India.
 - Extracts latitude and longitude from the search results.
 - Writes the results to an output file in a structured format.
 - Handles errors such as missing or incomplete data.
