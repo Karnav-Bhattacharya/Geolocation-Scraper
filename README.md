@@ -132,8 +132,8 @@ Palepolam, 15°31′40″, 80.120987
 ---
 
 ## Author
-Karnav Bhattacharya
-email: bhattacharyakarnav@gmail.com
+- Karnav Bhattacharya
+- email: bhattacharyakarnav@gmail.com
 
 ---
 
