@@ -6,6 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 
 import time
+import re
 
 # Constants
 URL = "https://www.geonames.org/advanced-search.html?q=&country=IN&featureClass=P&continentCode=AS&fuzzy=0.6"
@@ -16,8 +17,6 @@ OUTPUT_FILE = "coordinates.txt"
 # Initialize WebDriver
 service = Service(CHROME_DRIVER_PATH)
 driver = webdriver.Chrome(service=service)
-
-import re
 
 def read_locations(file_path):
     """Reads and processes location data from a file."""
@@ -38,11 +37,6 @@ def read_locations(file_path):
             locations.append(first_part)
 
     return locations
-
-
-# Example usage
-
-# Join and print in desired format
 
 
 def search_location(driver, location):
